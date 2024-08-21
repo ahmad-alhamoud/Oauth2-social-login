@@ -1,1 +1,8 @@
-spring.application.name=social
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv23li07EQ5Fn9HJla9o
+            client-secret: a2a8f4baf6e076f248e5eb92a2d79e83e8696b1b
