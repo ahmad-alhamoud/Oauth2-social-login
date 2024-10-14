@@ -1,6 +1,22 @@
 # Spring boot OAuth2 Social Login
 
-A sample project that shows how to implement OAuth2 login using Github as a resource server
+A sample project that shows how to implement OAuth2 login using Google and Github as a resource server.
+
+### let’s discover who plays roles in an OAuth 2 system
+
+1 - **The user**: the person who uses the application. The users usually work
+with a frontend application which we call a client. The users don’t
+always exist in an OAuth 2 system.
+
+2 - **The client**: the application that calls a backend needs
+authentication and authorization. The client can be a web app, a mobile
+app, a desktop app, or a separate backend service.
+
+3 - **The resource server**: A backend application that authorizes and serves
+calls sent by one or more client applications.
+
+4 - **The authorization server**: An app that implements authentication and
+safe storage of credentials.
 
 ### Application diagram
 
